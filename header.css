@@ -1,0 +1,63 @@
+/* *{
+    background-color: white;  */
+
+.logos {
+    width: 70px;
+    margin-bottom: -6px;
+}
+.headerflex{
+    background-color: wheat; 
+    margin:22px;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+h5{
+    transition:font-size 1s;
+}
+h5:hover{
+    color: blueviolet;
+    font-size: 20px;
+}
+.bodypage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.filters{
+    flex: 0 0 280px;
+    max-width: 280px;
+    padding: 0px 20px 0px 0px;
+    background-color:white;
+    border-color: palegoldenrod;
+    border-style: double;
+    
+}
+.products{
+    /* background-color:; */
+    flex-direction: row;
+
+    flex-grow: 1;
+    overflow: auto;
+}
+.productcard{
+    padding: 10px;
+    border: 4px solid black;
+}
+.image{
+
+    min-width: 200px;    
+    max-width:60%;
+    margin-bottom: 10px; 
+    overflow-y: hidden;
+   
+}
+.image-container{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
